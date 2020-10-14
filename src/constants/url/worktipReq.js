@@ -1,0 +1,22 @@
+export const worktipReq = {
+	QUERY:{
+		URL:"NormalWorkTip/GetNormalWorkTipPageList",
+		METHOD:"get",
+		PATTERN:"params"
+	},
+	ADD:{
+		URL:"NormalWorkTip/AddNormalWorkTip",
+		METHOD:"post",
+		PATTERN:"data"
+	},
+	EDIT:{
+		URL:"NormalWorkTip/UpateNormalWorkTip",
+		METHOD:"post",
+		PATTERN:"data"
+	},
+	DEL:{
+		URL:"NormalWorkTip/DeleteNormalWorkTip",
+		METHOD:"DELETE",
+		PATTERN:"data"
+	}
+} 
